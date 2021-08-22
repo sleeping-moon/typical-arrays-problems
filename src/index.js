@@ -1,5 +1,5 @@
-function min(аrr){
-	let len=arr.length;
+exports.min = function min(аrray){
+	let len=array.length;
 	let maxarr=0;
 	if(len == 0){return 0;}
 	else{
@@ -10,8 +10,8 @@ function min(аrr){
   }
 }
 
-function max(arr){
-	let len=arr.length;
+exports.max = function max(array){
+	let len=array.length;
 	let maxarr=0;
 	if(len == 0){return 0;}
 	else{
@@ -22,8 +22,8 @@ function max(arr){
 	}
 }
 
-function avg(arr){
-	let len=arr.length;
+exports.avg = function avg(array){
+	let len=array.length;
 	let avgarr=0;
 	if(len == 0){return 0;}
 	else{
